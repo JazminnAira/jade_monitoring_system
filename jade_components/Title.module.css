@@ -1,6 +1,6 @@
 .container{
     position: relative;
-    max-width: 1550px;
+    max-width: 100%;
     height: 700px;
     background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     mix-blend-mode: normal;
@@ -16,15 +16,15 @@
 }
 
 .title_sub{
-    margin-left: 155px;
-    padding-top: 70px;
+    position: relative;
 }
 
 .title {
+    position: relative;
     width: 353px;
     height: 144px;
     left: 150px;
-    top: 159px;
+    top: 80px;
 
     font-family: 'Kanit', sans-serif;
     font-style: bold;
@@ -38,9 +38,10 @@
 }
 
 .subtitle{
+    position: relative;
     height: 54px;
     left: 155px;
-    top: 358px;
+    top: 60px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -54,11 +55,11 @@
 }
 
 .signup_btn {
-    position: absolute;
-    width: 142px;
+    position: relative;
+    width: 150px;
     height: 60px;
     left: 155px;
-    top: 450px;
+    top: 120px;
 
     background: #FFFFFF;
     border-radius: 26px;
@@ -71,11 +72,11 @@
 }
 
 .login_btn {
-    position: absolute;
-    width: 142px;
+    position: relative;
+    width: 150px;
     height: 60px;
-    left: 480px;
-    top: 450px;
+    left: 330px;
+    top: 120px;
 
     background: #FFFFFF;
     border-radius: 26px;
@@ -88,14 +89,15 @@
 }
 
 .image{
+    position: relative;
     width: 420px;
     height: 385px;
-    top : 200px;
-    margin-left: 60px;
+    top : 0;
+    left: 260px;
 }
 
 .layer {
-    position: fixed ;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    
 }
