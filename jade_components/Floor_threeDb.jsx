@@ -19,43 +19,48 @@ const Floor_threeDb = () => {
             </div>
             </div>
             <div className={styles.container1}>
-            <div className={styles.library}>
-                <button className={styles.library_btn}></button>
-                <label className={styles.library_lbl}>LIBRARY</label>
+            <div className={styles.conference}>
+                <button className={styles.conference_btn}></button>
+                <label className={styles.conference_lbl}>CONFERENCE ROOM</label>
+            </div>
+    
+            <div className={styles.room205}>
+                <button className={styles.room205_btn}></button>
+                <label className={styles.room205_lbl}>Room 205</label>
             </div>
 
-            <div className={styles.room104}>
-                <button className={styles.room104_btn}></button>
-                <label className={styles.room104_lbl}>Room 104</label>
+            <div className={styles.room204}>
+                <button className={styles.room204_btn}></button>
+                <label className={styles.room204_lbl}>Room 204</label>
             </div>
-            <div className={styles.room103}>
-                <button className={styles.room103_btn}></button>
-                <label className={styles.room103_lbl}>Room 103</label>
+            <div className={styles.room203}>
+                <button className={styles.room203_btn}></button>
+                <label className={styles.room203_lbl}>Room 203</label>
             </div>
-            <div className={styles.room102}>
-                <button className={styles.room102_btn}></button>
-                <label className={styles.room102_lbl}>Room 102</label>
+            <div className={styles.room202}>
+                <button className={styles.room202_btn}></button>
+                <label className={styles.room202_lbl}>Room 202</label>
             </div>
-            <div className={styles.room101}>
-                <button className={styles.room101_btn}></button>
-                <label className={styles.room101_lbl}>Room 101</label>
+            <div className={styles.room201}>
+                <button className={styles.room201_btn}></button>
+                <label className={styles.room201_lbl}>Room 201</label>
             </div>
 
-            <div className={styles.room109}>
-                <button className={styles.room109_btn}></button>
-                <label className={styles.room109_lbl}>Room 109</label>
+            <div className={styles.room211}>
+                <button className={styles.room211_btn}></button>
+                <label className={styles.room211_lbl}>Room 211</label>
             </div>
-            <div className={styles.room110}>
-                <button className={styles.room110_btn}></button>
-                <label className={styles.room110_lbl}>Room 110</label>
+            <div className={styles.room212}>
+                <button className={styles.room212_btn}></button>
+                <label className={styles.room212_lbl}>Room 212</label>
             </div>
-            <div className={styles.room111}>
-                <button className={styles.room111_btn}></button>
-                <label className={styles.room111_lbl}>Room 111</label>
+            <div className={styles.room213}>
+                <button className={styles.room213_btn}></button>
+                <label className={styles.room213_lbl}>Room 213</label>
             </div>
-            <div className={styles.room112}>
-                <button className={styles.room112_btn}></button>
-                <label className={styles.room112_lbl}>Room 112</label>
+            <div className={styles.room214}>
+                <button className={styles.room214_btn}></button>
+                <label className={styles.room214_lbl}>Room 214</label>
             </div>
             
 

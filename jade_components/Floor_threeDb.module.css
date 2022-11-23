@@ -20,11 +20,6 @@
     width: 103px;
     height: 30px;
     left: 955px;
-    
-
-    background: #FFFFFF;
-    
-
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +33,10 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+>>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
 }
 .floor1_btn:hover{
     color: rgb(92, 193, 252);
@@ -49,11 +47,7 @@
     width: 103px;
     height: 30px;
     left: 1065px;
-    
-
     background: #FFFFFF;
-    
-
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +61,10 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+>>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
 }
 .floor2_btn:hover{
     color: rgb(92, 193, 252);
@@ -93,6 +90,10 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
+<<<<<<< HEAD
+=======
+    color: rgb(92, 193, 252);
+>>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
     font-weight: bold;
 }
 .floor3_btn:hover{
@@ -110,7 +111,7 @@
     width: 20px;
     height: 20px;
     left:100px;
-    background: green;
+    background: #54B435;
     border-radius: 120px;
     cursor: pointer;
 }
@@ -181,35 +182,34 @@
     border-radius: 60px;
 }
 
-.library{
+.conference{
     position: absolute;
-    width: 400px;
-    height: 100px;
-    left: 350px;
+    width: 350px;
+    height: 80px;
+    left: 650px;
     top: 30px;
     
     background: #D8D9DE;
    
 }
 
-.library_btn {
+.conference_btn {
     position: absolute;
     width: 30px;
     height: 30px;
     left:10px;
     top: 10px;
 
-    background: red;
+    background: #54B435;
     border-radius: 120px;
     cursor: pointer;
 }
 
-.library_lbl{
+.conference_lbl{
     position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 165px;
-    top: 15px;
+    width: 400x;
+    left: 70px;
+    top: 30px;
 
     font-family: 'Orienta';
     font-style: normal;
@@ -223,21 +223,20 @@
     color: #000000;
    
 }
-
-.room104{
+.room205{
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 80px;
     left: 100px;
     top: 30px;
     
     background: #D8D9DE;
    
 }
-.room104_btn {
+.room205_btn {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     left:8px;
     top: 10px;
 
@@ -246,7 +245,7 @@
     cursor: pointer;
 }
 
-.room104_lbl{
+.room205_lbl{
     position: absolute;
     width: 158px;
     height: 68px;
@@ -256,7 +255,7 @@
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     display: flex;
     align-items: center;
@@ -265,106 +264,20 @@
     color: #000000;
    
 }
-
-.room103{
+.room204{
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 80px;
     left: 100px;
-    top: 140px;
+    top: 120px;
     
     background: #D8D9DE;
    
 }
-.room103_btn {
+.room204_btn {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left:8px;
-    top: 10px;
-
-    background: green;
-    border-radius: 150px;
-    cursor: pointer;
-}
-
-.room103_lbl{
-    position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 30px;
-    top: 20px;
-
-    font-family: 'Orienta';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-   
-}
-.room102{
-    position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 100px;
-    top: 290px;
-    
-    background: #D8D9DE;
-    
-   
-}
-
-.room102_btn {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left:8px;
-    top: 10px;
-
-    background: green;
-    border-radius: 150px;
-    cursor: pointer;
-}
-
-.room102_lbl{
-    position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 30px;
-    top: 20px;
-
-    font-family: 'Orienta';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-   
-}
-
-.room101{
-    position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 100px;
-    top: 400px;
-    
-    background: #D8D9DE;
-   
-}
-.room101_btn {
-    position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     left:8px;
     top: 10px;
 
@@ -373,49 +286,7 @@
     cursor: pointer;
 }
 
-.room101_lbl{
-    position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 30px;
-    top: 20px;
-
-    font-family: 'Orienta';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-   
-}
-
-.room109{
-    position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 850px;
-    top: 30px;
-    
-    background: #D8D9DE;
-   
-}
-.room109_btn {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left:8px;
-    top: 10px;
-
-    background: green;
-    border-radius: 150px;
-    cursor: pointer;
-}
-
-.room109_lbl{
+.room204_lbl{
     position: absolute;
     width: 158px;
     height: 68px;
@@ -425,7 +296,7 @@
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     display: flex;
     align-items: center;
@@ -435,21 +306,105 @@
    
 }
 
-.room110{
+.room203{
     position: absolute;
     width: 150px;
-    height: 100px;
-    left: 850px;
-    top: 140px;
+    height: 80px;
+    left: 100px;
+    top: 210px;
     
     background: #D8D9DE;
    
 }
-
-.room110_btn {
+.room203_btn {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    left:8px;
+    top: 10px;
+
+    background: #54B435;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.room203_lbl{
+    position: absolute;
+    width: 158px;
+    height: 68px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+   
+}
+.room202{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 100px;
+    top: 340px;
+    
+    background: #D8D9DE;
+    
+   
+}
+
+.room202_btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left:8px;
+    top: 10px;
+
+    background: #54B435;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.room202_lbl{
+    position: absolute;
+    width: 158px;
+    height: 68px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+   
+}
+
+.room201{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 100px;
+    top: 430px;
+    
+    background: #D8D9DE;
+   
+}
+.room201_btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
     left:8px;
     top: 10px;
 
@@ -458,7 +413,7 @@
     cursor: pointer;
 }
 
-.room110_lbl{
+.room201_lbl{
     position: absolute;
     width: 158px;
     height: 68px;
@@ -468,7 +423,7 @@
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     display: flex;
     align-items: center;
@@ -478,40 +433,39 @@
    
 }
 
-.room111{
+.room211{
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 80px;
     left: 850px;
-    top: 290px;
+    top: 120px;
     
     background: #D8D9DE;
    
 }
-
-.room111_btn {
+.room211_btn {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     left:8px;
     top: 10px;
 
-    background: green;
+    background: #54B435;
     border-radius: 150px;
     cursor: pointer;
 }
 
-.room111_lbl{
+.room211_lbl{
     position: absolute;
     width: 158px;
     height: 68px;
     left: 30px;
-    top: 20px;
+    top: 15px;
 
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     display: flex;
     align-items: center;
@@ -521,22 +475,108 @@
    
 }
 
-.room112{
+.room212{
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 80px;
     left: 850px;
-    top: 400px;
+    top: 210px;
+    
+    background: #D8D9DE;
+   
+}
+
+.room212_btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left:8px;
+    top: 10px;
+
+    background: red;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.room212_lbl{
+    position: absolute;
+    width: 158px;
+    height: 68px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+   
+}
+
+.room213{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 850px;
+    top: 340px;
+    
+    background: #D8D9DE;
+   
+}
+
+.room213_btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left:8px;
+    top: 10px;
+
+    background: #54B435;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.room213_lbl{
+    position: absolute;
+    width: 158px;
+    height: 68px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+   
+}
+
+.room214{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 850px;
+    top: 430px;
     
     background: #D8D9DE;
     
    
 }
 
-.room112_btn {
+.room214_btn {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     left:8px;
     top: 10px;
 
@@ -547,7 +587,7 @@
 
 }
 
-.room112_lbl{
+.room214_lbl{
     position: absolute;
     width: 158px;
     height: 68px;
@@ -557,7 +597,7 @@
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     display: flex;
     align-items: center;
