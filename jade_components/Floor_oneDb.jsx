@@ -13,9 +13,9 @@ const Floor_oneDb = () => {
                 <label className={styles.vacant_lbl}>Vacant Room</label>
                 <button className={styles.occupied_btn}></button>
                 <label className={styles.occupied_lbl}>Occupied Room</label>
-                <button className={styles.active}>Floor 1</button>
-                <button className={styles.floor2_btn}>Floor 2</button>
-                <button className={styles.floor3_btn}>Floor 3</button>
+                <a href="/Dashboard1"><button className={styles.active}>Floor 1</button></a>
+                <a href="/Dashboard2"><button className={styles.floor2_btn}>Floor 2</button></a>
+                <a href="/Dashboard3"><button className={styles.floor3_btn}>Floor 3</button></a>
             </div>
             </div>
             <div className={styles.container1}>
@@ -24,9 +24,6 @@ const Floor_oneDb = () => {
                 <label className={styles.library_lbl}>Audio Visual Room</label>
             </div>
 
-          
-
-            
             <div className={styles.room111}>
                 <button className={styles.room111_btn}></button>
                 <label className={styles.room111_lbl}>Room 005</label>

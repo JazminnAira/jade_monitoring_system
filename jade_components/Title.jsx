@@ -11,7 +11,7 @@ const Title = () => {
                     <h1 className={styles.title}>JADE PROJECT</h1>
                     <label className={styles.subtitle}>ROOM MONITORING SYSTEM</label>
                     <button className={styles.signup_btn}>Sign Up</button>
-                    <button className={styles.login_btn}>Login</button>
+                    <a href="/Dashboard1"><button className={styles.login_btn}>Login</button></a>
                 </div>
                 <div className={styles.image}>
                     <div className={styles.login}>
@@ -20,6 +20,7 @@ const Title = () => {
                         <input type="text" className={styles.password} placeholder="*********"/>
                     </div>
                     <img src="/images/coverimage.png" height="550" width="650"/>
+                    <a href="/Dashboard1"><button className={styles.login_btn1}>Login</button></a>
                 </div>
             </div>
         </div>

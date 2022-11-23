@@ -15,7 +15,7 @@
     border: 1px solid #ffff;
 }
 
-.floor1_btn {
+.floor1_btn{
     position: absolute;
     width: 103px;
     height: 30px;
@@ -33,7 +33,10 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
+    color: rgb(92, 193, 252);
+    font-weight: bold;
 }
+
 .floor1_btn:hover{
     color: rgb(92, 193, 252);
     font-weight: bold;
@@ -98,7 +101,7 @@
     width: 20px;
     height: 20px;
     left:100px;
-    background: green;
+    background: #54B435;
     border-radius: 120px;
     cursor: pointer;
 }
@@ -221,7 +224,7 @@
     left: 850px;
     top: 290px;
     
-    background: #D8D9DE;
+    background: #A7C6D2;
    
 }
 
@@ -232,7 +235,7 @@
     left:8px;
     top: 10px;
 
-    background: green;
+    background: #54B435;
     border-radius: 150px;
     cursor: pointer;
 }
@@ -264,7 +267,7 @@
     left: 850px;
     top: 400px;
     
-    background: #D8D9DE;
+    background: #A7C6D2;
     
    
 }
@@ -302,6 +305,7 @@
     color: #000000;
    
 }
+
 
 .active{
     position: absolute;
