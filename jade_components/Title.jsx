@@ -20,6 +20,7 @@ const Title = () => {
                         <input type="text" className={styles.password} placeholder="*********"/>
                     </div>
                     <img src="/images/coverimage.png" height="550" width="650"/>
+                    <button className={styles.login_btn1}>Login</button>
                 </div>
             </div>
         </div>

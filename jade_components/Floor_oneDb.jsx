@@ -13,7 +13,7 @@ const Floor_oneDb = () => {
                 <label className={styles.vacant_lbl}>Vacant Room</label>
                 <button className={styles.occupied_btn}></button>
                 <label className={styles.occupied_lbl}>Occupied Room</label>
-                <button className={styles.active}>Floor 1</button>
+                <button className={styles.floor1_btn}>Floor 1</button>
                 <button className={styles.floor2_btn}>Floor 2</button>
                 <button className={styles.floor3_btn}>Floor 3</button>
             </div>
