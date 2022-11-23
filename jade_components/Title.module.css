@@ -103,7 +103,7 @@
     width: 650;
     height: 550;
     top : 0;
-    left: 360px;
+    left: 167px;
 }
 
 .layer {
@@ -163,16 +163,14 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .container{
         width: 1000px;
         height: 700px;
         background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
         mix-blend-mode: normal;
     }
-    .image{
-        display: none;
-    }
+    
     .login_btn{
         position: relative;
         width: 150px;
@@ -188,6 +186,4 @@
         top: 120px;
     
     }
-
-
-}
+} */
