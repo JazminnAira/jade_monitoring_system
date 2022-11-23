@@ -14,6 +14,11 @@ const Title = () => {
                     <button className={styles.login_btn}>Login</button>
                 </div>
                 <div className={styles.image}>
+                    <div className={styles.login}>
+                        <h4 className={styles.welcome}>WELCOME BACK!</h4>
+                        <input type="text" className={styles.username} placeholder="@email"/> 
+                        <input type="text" className={styles.password} placeholder="*********"/>
+                    </div>
                     <img src="/images/coverimage.png" height="550" width="650"/>
                 </div>
             </div>
