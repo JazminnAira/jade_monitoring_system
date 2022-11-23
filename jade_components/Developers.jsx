@@ -9,7 +9,7 @@ const Developers = () => {
             </div>
             <div className={styles.arrangement}>
                 <div className={styles.card}>
-                    <img src="/images/allora.png" height ="180" width="175"/><br></br>
+                    <img src="/images/allora.png" height ="180" width="158"/><br></br>
                     <label className={styles.name}>ALLORA BLESSE LAGURA</label><br></br>
                     <label className={styles.position}>Project Manager</label>
                 </div>
