@@ -33,10 +33,9 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
-<<<<<<< HEAD
+    
     font-weight: bold;
-=======
->>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
+
 }
 .floor1_btn:hover{
     color: rgb(92, 193, 252);
@@ -61,10 +60,9 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
-<<<<<<< HEAD
+
     font-weight: bold;
-=======
->>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
+
 }
 .floor2_btn:hover{
     color: rgb(92, 193, 252);
@@ -90,10 +88,9 @@
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
-<<<<<<< HEAD
-=======
+
     color: rgb(92, 193, 252);
->>>>>>> 9bcc2a09a3351f69b45af385cc65496a04cc7311
+
     font-weight: bold;
 }
 .floor3_btn:hover{
