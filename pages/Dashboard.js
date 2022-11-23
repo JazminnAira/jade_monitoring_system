@@ -1,13 +1,14 @@
 // import dashboardnavbar from "../jade_components/dashboardnavbar"
 // import Floor_twoDb from "../jade_components/Floor_twoDb"
-import Floor_threeDb from "../jade_components/Floor_threeDb"
-
+// import Floor_threeDb from "../jade_components/Floor_threeDb"
+import Floor_oneDb from "../jade_components/Floor_oneDb"
 const Dashboard = () => {
     return (
       <div>
+        <Floor_oneDb/>
         {/* <dashboardnavbar/>
         <Floor_twoDb/> */}
-        <Floor_threeDb/>
+        {/* <Floor_threeDb/> */}
       </div>
     );
   };
