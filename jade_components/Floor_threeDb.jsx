@@ -1,4 +1,5 @@
 import styles from "./Floor_threeDb.module.css";
+import Link from 'next/link';
 
 const Floor_threeDb = () => {
     return (
@@ -13,9 +14,9 @@ const Floor_threeDb = () => {
                 <label className={styles.vacant_lbl}>Vacant Room</label>
                 <button className={styles.occupied_btn}></button>
                 <label className={styles.occupied_lbl}>Occupied Room</label>
-                <a href="/Dashboard1"><button className={styles.floor1_btn}>Floor 1</button></a>
-                <a href="/Dashboard2"><button className={styles.floor2_btn}>Floor 2</button></a>
-                <a href="/Dashboard3"><button className={styles.active}>Floor 3</button></a>
+                <Link href="/Dashboard1"><button className={styles.floor1_btn}>Floor 1</button></Link>
+                <Link href="/Dashboard2"><button className={styles.floor2_btn}>Floor 2</button></Link>
+                <Link href="/Dashboard3"><button className={styles.active}>Floor 3</button></Link>
             </div>
             </div>
             <div className={styles.container1}>

@@ -1,4 +1,25 @@
 import styles from "./Title.module.css";
+import Link from 'next/link';
+import React from "react";
+
+// reactstrap components
+import {
+  Button,
+  Card,
+  CardHeader,
+  CardBody,
+  FormGroup,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Modal,
+  Row,
+  Col,
+} from "reactstrap";
+
+
 
 const Title = () => {
     return (
@@ -11,7 +32,7 @@ const Title = () => {
                     <h1 className={styles.title}>JADE PROJECT</h1>
                     <label className={styles.subtitle}>ROOM MONITORING SYSTEM</label>
                     <button className={styles.signup_btn}>Sign Up</button>
-                    <a href="/Dashboard1"><button className={styles.login_btn}>Login</button></a>
+                    <button className={styles.login_btn}>Login</button>
                 </div>
                 <div className={styles.image}>
                     <div className={styles.login}>
@@ -20,7 +41,7 @@ const Title = () => {
                         <input type="text" className={styles.password} placeholder="*********"/>
                     </div>
                     <img src="/images/coverimage.png" height="550" width="650"/>
-                    <a href="/Dashboard1"><button className={styles.login_btn1}>Login</button></a>
+                    <Link href="/Dashboard1"><button className={styles.login_btn1}>Login</button></Link>
                 </div>
             </div>
         </div>
