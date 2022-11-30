@@ -27,7 +27,9 @@ const About = () => {
             
             <div className={styles.container2}>
                     <div className={styles.signup}>
+                        <div>
                         <h4 className={styles.signuplbl}>Sign Up</h4>
+                        </div>
                         <input type="text" className={styles.name} placeholder="Name"/> 
                         <input type="text" className={styles.department} placeholder="Department"/>
                         <input type="text" className={styles.cnum} placeholder="Contact No."/> 

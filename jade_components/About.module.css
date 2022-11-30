@@ -92,6 +92,14 @@
         color: #000000;
         font-size: 42px;
     }
+    .signuplbl{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 700px;
+        text-align: center;
+        color: #000000;
+        font-size: 42px;
+    }
     .content{
         
         text-align: center;
@@ -106,11 +114,6 @@
     left: 700px;
 }
 
-.layer {
-    position: relative;
-    display: flex;
-    
-}
 .signup{
     width: 100%;
     text-align: center;
@@ -121,6 +124,7 @@
     box-sizing: border-box;
 
     position: absolute;
+
     width: 350px;
     height: 35px;
     left: 180px;
@@ -236,18 +240,21 @@
 
 .signuplbl{
     position: relative;
-    width: 100%;
-    left : 145px;
-    top: 40px;
-
+    width: 353px;
+    height: 144px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 6vh;
+    font-size: 50px;
+    line-height: 72px;
+    display: flex;
     align-items: center;
-    text-align: left;
 
-    color: black;
+    color: #000000; 
 
     mix-blend-mode: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);

@@ -2,17 +2,32 @@
     position: relative;
     width: 79px;
     height: 78px;
-    left: 120px;
-    top: 30px;
+    left: 50px;
+    top: 20px;
+}
+
+.home {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 450px;
+    background: transparent;
+    border: 1px solid #B3B3B3;
+    box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
+    border-radius: 8px 8px 0px 0px;
+    color: rgb(92, 193, 252);
+    font-weight: bold;
 }
 .hr {
     position: absolute;
-    width: 1200px;
+    width: 1180px;
     height: 0px;
-    left: 200px;
-    top: 130px;
+    left: 145px;
+    top: 120px;
+    
 
-    border: 1px solid #ffff;
+    border: 1px solid black;
 }
 
 .floor1_btn {
@@ -156,8 +171,10 @@
 
 .container{
     position: relative;
+    max-height: 1000px;
     width: 100%;
     height: 700px;
+    align-items: center;
     background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     mix-blend-mode: normal;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -165,9 +182,9 @@
 
 .container1{
     position: absolute;
-    width: 1100px;
-    height: 530px;
-    left: 250px;
+    width: 1000px;
+    height: 500px;
+    left: 200px;
     
     background: #EDEEF1;
     border-radius: 60px;
@@ -177,7 +194,7 @@
     position: absolute;
     width: 400px;
     height: 100px;
-    left: 350px;
+    left: 300px;
     top: 30px;
     
     background: #D8D9DE;
@@ -220,7 +237,7 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 100px;
+    left: 50px;
     top: 30px;
     
     background: #D8D9DE;
@@ -262,7 +279,7 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 100px;
+    left: 50px;
     top: 140px;
     
     background: #D8D9DE;
@@ -303,8 +320,8 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 100px;
-    top: 290px;
+    left: 50px;
+    top: 280px;
     
     background: #D8D9DE;
     
@@ -347,8 +364,8 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 100px;
-    top: 400px;
+    left: 50px;
+    top: 390px;
     
     background: #D8D9DE;
    
@@ -389,7 +406,7 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 850px;
+    left: 800px;
     top: 30px;
     
     background: #D8D9DE;
@@ -431,7 +448,7 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 850px;
+    left: 800px;
     top: 140px;
     
     background: #D8D9DE;
@@ -474,8 +491,8 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 850px;
-    top: 290px;
+    left: 800px;
+    top: 280px;
     
     background: #D8D9DE;
    
@@ -517,8 +534,8 @@
     position: absolute;
     width: 150px;
     height: 100px;
-    left: 850px;
-    top: 400px;
+    left: 800px;
+    top: 390px;
     
     background: #D8D9DE;
     
