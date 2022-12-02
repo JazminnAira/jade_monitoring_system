@@ -24,46 +24,19 @@
 }
 .hr {
     position: absolute;
-    width: 1180px;
+    width: 80vw;
     height: 0px;
     left: 145px;
     top: 120px;
     
-
     border: 1px solid black;
 }
 
-.floor1_btn{
-    position: absolute;
-    width: 103px;
-    height: 30px;
-    left: 955px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    cursor: pointer;
-    color: #000000;
-    box-sizing: border-box;
-    align-items: flex-start;
-    background: #FFFFFF;
-    border: 1px solid #B3B3B3;
-    box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
-    border-radius: 8px 8px 0px 0px;
-    color: rgb(92, 193, 252);
-    font-weight: bold;
-}
-
-.floor1_btn:hover{
-    color: rgb(92, 193, 252);
-    font-weight: bold;
-}
 .floor2_btn {
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 1065px;
+    left: 68vw;
     background: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -88,7 +61,7 @@
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 1175px;
+    left: 76vw;
     background: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -98,7 +71,6 @@
     cursor: pointer;
     color: #000000;
     box-sizing: border-box;
-    align-items: flex-start;
     background: #FFFFFF;
     border: 1px solid #B3B3B3;
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
@@ -110,7 +82,6 @@
 }
 .layer {
     position: relative;
-    display: flex;
     
 }
 
@@ -118,7 +89,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    left:100px;
+    left:8em;
     background: #54B435;
     border-radius: 120px;
     cursor: pointer;
@@ -126,8 +97,7 @@
 .vacant_lbl{
     position: absolute;
     width: 158px;
-    left: 130px;
-    top: 3px;
+    left: 6.7em;
 
     font-family: 'Orienta';
     font-style: normal;
@@ -153,9 +123,9 @@
 }
 .occupied_lbl{
     position: absolute;
-    width: 158px;
-    left: 300px;
-    top: 3px;
+    width: 20vw;
+    height: 3vh;
+    left: 15em;
 
     font-family: 'Orienta';
     font-style: normal;
@@ -170,12 +140,11 @@
    
 }
 
-
 .container{
     position: relative;
     max-height: 1000px;
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     mix-blend-mode: normal;
@@ -184,9 +153,10 @@
 
 .container1{
     position: absolute;
-    width: 1000px;
-    height: 500px;
-    left: 200px;
+    width: 70vw;
+    height: 65vh;
+    margin-left: 15em;
+    margin-right: 15em;
     
     background: #EDEEF1;
     border-radius: 60px;
@@ -194,10 +164,10 @@
 
 .library{
     position: absolute;
-    width: 400px;
-    height: 100px;
-    left: 350px;
-    top: 30px;
+    width: 30vw;
+    height: 17vh;
+    margin-top: 2em;
+    left: 20vw;
     
     background: #D8D9DE;
    
@@ -207,8 +177,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left:10px;
-    top: 10px;
+    top:1.7em;
+    left: 2em;
 
     background: red;
     border-radius: 120px;
@@ -219,42 +189,34 @@
     position: absolute;
     width: 400px;
     height: 68px;
-    justify-content: center;
+    left: 6.7em;
+    overflow-wrap: break-word;
     
-    top: 15px;
-
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
-    display: flex;
-    align-items: center;
+    margin-top: 3em;
 
     color: #000000;
    
 }
 
-
-
 .room111{
     position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 800px;
-    top: 250px;
-    
+    width: 15%;
+    height: 20%;
+    top: 15em;
+    right: 4em;
     background: #A7C6D2;
-   
 }
 
 .room111_btn {
-    position: absolute;
     width: 20px;
     height: 20px;
-    left:8px;
-    top: 10px;
-
+    margin-top: 1em;
+    margin-left: 1em;
     background: #54B435;
     border-radius: 150px;
     cursor: pointer;
@@ -262,30 +224,27 @@
 
 .room111_lbl{
     position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 30px;
-    top: 20px;
-
-    font-family: 'Orienta';
+    width: 10vw;
+    height: 10vh;
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+   
     color: #000000;
    
 }
 
 .room112{
     position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 800px;
-    top: 360px;
+    width: 15%;
+    height: 20%;
+    top: 22em;
+    right: 4em;
+    margin-top: 1em;
     
     background: #A7C6D2;
     
@@ -296,8 +255,8 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    left:8px;
-    top: 10px;
+    margin-top: 1em;
+    margin-left: 1em;
 
     background: red;
     border-radius: 150px;
@@ -308,30 +267,27 @@
 
 .room112_lbl{
     position: absolute;
-    width: 158px;
-    height: 68px;
-    left: 30px;
-    top: 20px;
+    width: 10vw;
+    height: 10vh;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    margin-top: 2em;
+    margin-left: 1.5em;
+
 
     color: #000000;
    
 }
 
-
 .active{
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 955px;
+    left: 60vw;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -347,4 +303,38 @@
     border-radius: 8px 8px 0px 0px;
     color: rgb(92, 193, 252);
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 1348px) {
+    .container1{
+        width: 900px;
+        height: 550px;
+        margin-left: 17vw;
+    }
+    .container{
+        width: 1348px;
+        height: 500vh;
+    }
+
+    .library_lbl{
+        left: 8vw;
+    }
+    .library{
+        width: 365px;
+    }
+
+    .room111{
+        left:54.5vw;
+    }
+
+    .room112 {
+        left:54.5vw;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container1{
+        width: 650px;
+    }
 }
