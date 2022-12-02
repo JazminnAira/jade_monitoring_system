@@ -22,8 +22,8 @@ const Title = () => {
                     <label className={styles.subtitle}>ROOM MONITORING SYSTEM</label>
                     <button className={styles.signup_btn} onClick={() => setModalOpen(!modalOpen)}>Sign Up</button>
                     <Modal class="modal" className={styles.modal} toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen}>
-                        <div className="modal-header">
-                        <button aria-label="Close" className="close" type="button" onClick={() => setModalOpen(!modalOpen)}>
+                        <div className={styles.header}>
+                        <button aria-label="Close" class="close" className={styles.close} type="button" onClick={() => setModalOpen(!modalOpen)}>
                             <span aria-hidden={true}>×</span>
                         </button>
                         </div>
@@ -35,20 +35,11 @@ const Title = () => {
                             <input type="text" className={styles.cnum} placeholder="Contact No."/> <br></br><br></br>
                             <input type="text" className={styles.email} placeholder="@email"/><br></br><br></br>
                             <input type="text" className={styles.password1} placeholder="*******"/> <br></br><br></br>
-                            <button className={styles.signup_btn1}>Sign Up</button>
+                            
                        
                         </ModalBody>
                         <ModalFooter>
-                        <Button
-                            color="secondary"
-                            type="button"
-                            onClick={() => setModalOpen(!modalOpen)}
-                        >
-                            Close
-                        </Button>
-                        <Button color="primary" type="button">
-                            Save changes
-                        </Button>
+                            <button className={styles.signup_btn1}>Sign Up</button>
                         </ModalFooter>
                     </Modal>
                     <button className={styles.login_btn}>Login</button>
