@@ -19,16 +19,17 @@
     color: rgb(92, 193, 252);
     font-weight: bold;
 }
-.button{
-    color:aqua;
+
+.button {
+    color: aqua;
 }
+
 .hr {
     position: absolute;
     width: 80vw;
     height: 0px;
     left: 145px;
     top: 120px;
-    
     border: 1px solid black;
 }
 
@@ -52,7 +53,8 @@
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
 }
-.floor2_btn:hover{
+
+.floor2_btn:hover {
     color: rgb(92, 193, 252);
     font-weight: bold;
 }
@@ -76,29 +78,30 @@
     box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
     border-radius: 8px 8px 0px 0px;
 }
-.floor3_btn:hover{
+
+.floor3_btn:hover {
     color: rgb(92, 193, 252);
     font-weight: bold;
 }
+
 .layer {
     position: relative;
-    
 }
 
 .vacant_btn {
     position: absolute;
     width: 20px;
     height: 20px;
-    left:8em;
+    left: 8em;
     background: #54B435;
     border-radius: 120px;
     cursor: pointer;
 }
-.vacant_lbl{
+
+.vacant_lbl {
     position: absolute;
     width: 158px;
     left: 6.7em;
-
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
@@ -107,26 +110,24 @@
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #000000;
-   
 }
 
 .occupied_btn {
     position: absolute;
     width: 20px;
     height: 20px;
-    left:270px;
+    left: 270px;
     background: red;
     border-radius: 120px;
     cursor: pointer;
 }
-.occupied_lbl{
+
+.occupied_lbl {
     position: absolute;
     width: 20vw;
     height: 3vh;
     left: 15em;
-
     font-family: 'Orienta';
     font-style: normal;
     font-weight: 400;
@@ -135,12 +136,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #000000;
-   
 }
 
-.container{
+.container {
     position: relative;
     max-height: 1000px;
     width: 100vw;
@@ -151,64 +150,57 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.container1{
+.container1 {
     position: absolute;
     width: 70vw;
     height: 65vh;
-    margin-left: 15em;
-    margin-right: 15em;
-    
+    margin-left: 15vw;
+    margin-right: 15vw;
     background: #EDEEF1;
     border-radius: 60px;
 }
 
-.library{
+.library {
     position: absolute;
     width: 30vw;
     height: 17vh;
     margin-top: 2em;
     left: 20vw;
-    
     background: #D8D9DE;
-   
 }
 
 .library_btn {
     position: absolute;
     width: 30px;
     height: 30px;
-    top:1.7em;
+    top: 1.7em;
     left: 2em;
-
     background: red;
     border-radius: 120px;
     cursor: pointer;
 }
 
-.library_lbl{
+.library_lbl {
     position: absolute;
     width: 400px;
     height: 68px;
-    left: 6.7em;
+    left: 9vw;
     overflow-wrap: break-word;
-    
     font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
     margin-top: 3em;
-
     color: #000000;
-   
 }
 
-.room111{
+.room111 {
     position: absolute;
     width: 15%;
     height: 20%;
-    top: 15em;
-    right: 4em;
+    top: 25vh;
+    right: 3.4vw;
     background: #A7C6D2;
 }
 
@@ -222,7 +214,7 @@
     cursor: pointer;
 }
 
-.room111_lbl{
+.room111_lbl {
     position: absolute;
     width: 10vw;
     height: 10vh;
@@ -231,24 +223,18 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-   
+    top: 5vh;
+    left: 2vw;
     color: #000000;
-   
 }
 
-.room112{
+.room112 {
     position: absolute;
     width: 15%;
     height: 20%;
-    top: 22em;
-    right: 4em;
-    margin-top: 1em;
-    
+    top: 40vh;
+    right: 3.4vw;
     background: #A7C6D2;
-    
-   
 }
 
 .room112_btn {
@@ -257,33 +243,26 @@
     height: 20px;
     margin-top: 1em;
     margin-left: 1em;
-
     background: red;
     border-radius: 150px;
     cursor: pointer;
-    
-
 }
 
-.room112_lbl{
+.room112_lbl {
     position: absolute;
     width: 10vw;
     height: 10vh;
-
     font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 17px;
-    margin-top: 2em;
-    margin-left: 1.5em;
-
-
+    top: 5vh;
+    left: 2vw;
     color: #000000;
-   
 }
 
-.active{
+.active {
     position: absolute;
     width: 103px;
     height: 30px;
@@ -305,36 +284,14 @@
     font-weight: bold;
 }
 
-
-@media screen and (max-width: 1348px) {
-    .container1{
-        width: 900px;
-        height: 550px;
-        margin-left: 17vw;
+@media screen and (max-width: 1100px) {
+    .library_lbl {
+        left: 6vw;
     }
-    .container{
-        width: 1348px;
-        height: 500vh;
+    .room111_lbl {
+        left: 1vw;
     }
-
-    .library_lbl{
-        left: 8vw;
-    }
-    .library{
-        width: 365px;
-    }
-
-    .room111{
-        left:54.5vw;
-    }
-
-    .room112 {
-        left:54.5vw;
-    }
-}
-
-@media screen and (max-width: 900px){
-    .container1{
-        width: 650px;
+    .room112_lbl {
+        left: 1vw;
     }
 }
