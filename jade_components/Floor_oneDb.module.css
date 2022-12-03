@@ -182,10 +182,9 @@
 
 .library_lbl {
     position: absolute;
-    width: 400px;
+    width: 20vw;
     height: 68px;
     left: 9vw;
-    overflow-wrap: break-word;
     font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -285,13 +284,73 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .library_lbl {
-        left: 6vw;
+    .library_lbl{
+        font-size: 90%;
+        word-wrap: break-word;
+        position: absolute;
+        align-items: center;
     }
+    
+    .library_btn {
+        width:13%;
+        height:15%;
+    }
+
+    
     .room111_lbl {
+        font-size: 90%;
         left: 1vw;
     }
+
+    .room111_btn{
+        width:13%;
+        height:15%;
+    }
+
     .room112_lbl {
+        font-size: 90%;
         left: 1vw;
+    }
+
+    .room112_btn{
+        width:13%;
+        height:15%;
+    }
+
+    .active {
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .floor2_btn{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .floor3_btn{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .vacant_btn{
+        width:20%;
+        height:20%; 
+    }
+
+    .vacant_lbl{
+        margin-left: 45%;
+        width:100%;
+        font-size: 90%;
+    }    
+
+    .occupied_btn{
+        margin-left: -60%;
+        width:20%;
+        height:20%; 
+    }
+
+    .occupied_lbl{
+        margin-left: 35%;
+        font-size: 90%;
     }
 }
