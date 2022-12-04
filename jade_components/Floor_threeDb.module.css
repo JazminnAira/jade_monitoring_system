@@ -21,9 +21,9 @@
 }
 .hr {
     position: absolute;
-    width: 1180px;
+    width: 85vw;
     height: 0px;
-    left: 145px;
+    left: 8vw;
     top: 120px;
     
 
@@ -34,7 +34,7 @@
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 955px;
+    left: 59vw;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -60,7 +60,7 @@
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 1065px;
+    left: 67vw;
     background: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -84,37 +84,9 @@
     font-weight: bold;
 }
 
-.floor3_btn {
-    position: absolute;
-    width: 103px;
-    height: 30px;
-    left: 1175px;
-    background: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    cursor: pointer;
-    color: #000000;
-    box-sizing: border-box;
-    align-items: flex-start;
-    background: #FFFFFF;
-    border: 1px solid #B3B3B3;
-    box-shadow: inset -1px 0px 0px #B3B3B3, inset 1px 0px 0px #B3B3B3, inset 0px -1px 0px #FFFFFF;
-    border-radius: 8px 8px 0px 0px;
-
-    color: rgb(92, 193, 252);
-
-    font-weight: bold;
-}
-.floor3_btn:hover{
-    color: rgb(92, 193, 252);
-    font-weight: bold;
-}
 .layer {
     position: relative;
-    display: flex;
+    width: 80vw;
     
 }
 
@@ -133,7 +105,7 @@
     left: 130px;
     top: 3px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -157,11 +129,11 @@
 }
 .occupied_lbl{
     position: absolute;
-    width: 158px;
-    left: 300px;
-    top: 3px;
+    width: 20vw;
+    height: 3vh;
+    left: 15em;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -178,8 +150,8 @@
 .container{
     position: relative;
     max-height: 1000px;
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     mix-blend-mode: normal;
@@ -188,9 +160,10 @@
 
 .container1{
     position: absolute;
-    width: 1000px;
-    height: 500px;
-    left: 200px;
+    width: 70vw;
+    height: 65vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
     
     background: #EDEEF1;
     border-radius: 60px;
@@ -198,10 +171,10 @@
 
 .conference{
     position: absolute;
-    width: 350px;
-    height: 80px;
-    left: 600px;
-    top: 30px;
+    width: 23vw;
+    height: 11vh;
+    right: 7.7vw;
+    top: 3vh;
     
     background: #D8D9DE;
    
@@ -225,7 +198,7 @@
     left: 70px;
     top: 30px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -239,10 +212,10 @@
 }
 .room205{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 50px;
-    top: 30px;
+    width: 11vw;
+    height: 10vh;
+    left: 6vw;
+    top: 3vh;
     
     background: #D8D9DE;
    
@@ -266,7 +239,7 @@
     left: 30px;
     top: 15px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -280,10 +253,10 @@
 }
 .room204{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 50px;
-    top: 120px;
+    width: 11vw;
+    height: 10vh;
+    left: 6vw;
+    top: 14vh;
     
     background: #D8D9DE;
    
@@ -307,7 +280,7 @@
     left: 30px;
     top: 15px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -322,10 +295,10 @@
 
 .room203{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 50px;
-    top: 210px;
+    width: 11vw;
+    height: 10vh;
+    left: 6vw;
+    top: 25vh;
     
     background: #D8D9DE;
    
@@ -349,7 +322,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -363,10 +336,10 @@
 }
 .room202{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 50px;
-    top: 320px;
+    width: 11vw;
+    height: 10vh;
+    left: 6vw;
+    top: 39vh;
     
     background: #D8D9DE;
     
@@ -392,7 +365,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -407,10 +380,10 @@
 
 .room201{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 50px;
-    top: 410px;
+    width: 11vw;
+    height: 10vh;
+    left: 6vw;
+    top: 50vh;
     
     background: #D8D9DE;
    
@@ -434,7 +407,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -449,10 +422,10 @@
 
 .room211{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 800px;
-    top: 120px;
+    width: 11vw;
+    height: 10vh;
+    right: 7.7vw;
+    top: 15vh;
     
     background: #D8D9DE;
    
@@ -476,7 +449,7 @@
     left: 30px;
     top: 15px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -491,10 +464,10 @@
 
 .room212{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 800px;
-    top: 210px;
+    width: 11vw;
+    height: 10vh;
+    right: 7.7vw;
+    top: 26vh;
     
     background: #D8D9DE;
    
@@ -519,7 +492,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -534,10 +507,10 @@
 
 .room213{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 800px;
-    top: 320px;
+    width: 11vw;
+    height: 10vh;
+    right: 7.7vw;
+    top: 40vh;
     
     background: #D8D9DE;
    
@@ -562,7 +535,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -577,10 +550,10 @@
 
 .room214{
     position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 800px;
-    top: 410px;
+    width: 11vw;
+    height: 10vh;
+    right: 7.7vw;
+    top: 51vh;
     
     background: #D8D9DE;
     
@@ -608,7 +581,7 @@
     left: 30px;
     top: 20px;
 
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -625,7 +598,7 @@
     position: absolute;
     width: 103px;
     height: 30px;
-    left: 1175px;
+    left: 75vw;
     background: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -642,4 +615,86 @@
     border-radius: 8px 8px 0px 0px;
     color: rgb(92, 193, 252);
     font-weight: bold;
+}
+
+@media screen and (max-width: 759px) {
+    .container{
+        width: 759px;
+        height: 889px;
+    }
+
+    .container1{
+        width: 550px;
+    }
+
+    .conference{
+        width: 228px;
+        right: 30px;
+    }
+
+    .room201{
+        width: 90px;
+        left: 30px;
+    }
+
+    .room202{
+        width: 90px;
+        left: 30px;
+    }
+
+    .room203{
+        width: 90px;
+        left: 30px;
+    }
+
+    .room204{
+        width: 90px;
+        left: 30px;
+    }
+
+    .room205{
+        width: 90px;
+        left: 30px;
+    }
+
+    .room211{
+        width: 90px;
+        right: 30px;
+    }
+
+    .room212{
+        width: 90px;
+        right: 30px;
+    }
+
+    .room213{
+        width: 90px;
+        right: 30px;
+    }
+
+    .room214{
+        width: 90px;
+        right: 30px;
+    }
+
+    .hr{
+        left: 90px;
+        width: 650px;
+    }
+
+    .floor1_btn{
+        left: 455px;;
+    }
+
+    .floor2_btn{
+        left: 515px;
+    }
+
+    .active{
+        left: 575px;
+    }
+
+    .occupied_lbl{
+        left: 231px;
+    }
 }

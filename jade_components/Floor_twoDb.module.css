@@ -101,7 +101,7 @@
     position: absolute;
     width: 158px;
     left: 6.7em;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -127,7 +127,7 @@
     width: 20vw;
     height: 3vh;
     left: 15em;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -186,7 +186,7 @@
     padding-left: 12vw;
     padding-top: 8vh;
     overflow-wrap: break-word;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -223,7 +223,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -260,7 +260,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -297,7 +297,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -334,7 +334,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -371,7 +371,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -408,7 +408,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -445,7 +445,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -482,7 +482,7 @@
     height: 68px;
     top: 1.4vh;
     left: 2vw;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -519,5 +519,82 @@
 @media screen and (max-width: 1140px) {
     .library_lbl {
         padding-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .container{
+        width: 759px;
+        height: 889px;
+    }
+
+    .container1{
+        width: 550px;
+    }
+
+    .library{
+        width: 228px;
+        left:155px;
+    }
+
+    .room101{
+        width: 90px;
+        left: 25px;
+    }
+
+    .room102{
+        width: 90px;
+        left: 25px;
+    }
+
+    .room103{
+        width: 90px;
+        left: 25px;
+    }
+
+    .room104{
+        width: 90px;
+        left: 25px;
+    }
+
+    .room109{
+        width: 90px;
+        right: 25px;
+    }
+
+    .room110{
+        width: 90px;
+        right: 25px;
+    }
+
+    .room111{
+        width: 90px;
+        right: 25px;
+    }
+
+    .room112{
+        width: 90px;
+        right: 25px;
+    }
+
+    .hr{
+        left: 90px;
+        width: 650px;
+    }
+
+    .floor1_btn{
+        left: 455px;;
+    }
+
+    .active{
+        left: 515px;
+    }
+
+    .floor3_btn{
+        left: 575px
+    }
+
+    .occupied_lbl{
+        left: 231px;
     }
 }

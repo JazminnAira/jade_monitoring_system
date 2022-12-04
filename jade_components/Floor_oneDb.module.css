@@ -102,7 +102,7 @@
     position: absolute;
     width: 158px;
     left: 6.7em;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -128,7 +128,7 @@
     width: 20vw;
     height: 3vh;
     left: 15em;
-    font-family: 'Orienta';
+    font-family: 'Orienta', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -352,5 +352,51 @@
     .occupied_lbl{
         margin-left: 35%;
         font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .container{
+        width: 759px;
+    }
+
+    .container1{
+        width: 550px;
+    }
+
+    .library{
+        width: 228px;
+        left:155px;
+    }
+
+    .room111{
+        width: 90px;
+        left: 430px;
+    }
+
+    .room112{
+        width: 90px;
+        left: 430px;
+    }
+
+    .hr{
+        left: 90px;
+        width: 650px;
+    }
+
+    .active{
+        left: 455px;;
+    }
+
+    .floor2_btn{
+        left: 515px;
+    }
+
+    .floor3_btn{
+        left: 575px
+    }
+
+    .occupied_lbl{
+        left: 231px;
     }
 }
