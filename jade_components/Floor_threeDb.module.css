@@ -617,6 +617,147 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 1100px) {
+
+    .conference_lbl{
+        font-size: 100%;
+        word-wrap: break-word;
+        position: absolute;
+        align-items: center;
+    }
+    
+    .conference_btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    
+    .room205_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room205_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room204_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room204_btn{
+        width:15%;
+        height:20%;
+    }
+    .room203_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room203_btn{
+        width:15%;
+        height:20%;
+    }
+    .room202_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room202_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room201_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room201_btn{
+        width:15%;
+        height:20%;
+    }
+    .room211_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room211_btn{
+        width:15%;
+        height:20%;
+    }
+    .room212_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room212_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room213_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room213_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room214_lbl {
+        font-size: 90%;
+        left: 1vw;
+    }
+
+    .room214_btn{
+        width:15%;
+        height:20%;
+    }
+
+
+    .floor1_btn {
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .floor2_btn{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .active{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .vacant_btn{
+        width:20%;
+        height:20%; 
+    }
+
+    .vacant_lbl{
+        font-size: 90%;
+    }    
+
+    .occupied_btn{
+        margin-left: -60%;
+        width:20%;
+        height:20%; 
+    }
+
+    .occupied_lbl{
+        margin-left: 35%;
+        font-size: 90%;
+    }
+
+    
+}
+
+
 @media screen and (max-width: 759px) {
     .container{
         width: 759px;

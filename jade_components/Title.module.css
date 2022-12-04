@@ -20,15 +20,14 @@
     position: fixed;
     top: 50%;
     left: 50%; transform:translate(-50%, -50%);
-    background: rgba(0, 158, 255, 0.4);
+    
     mix-blend-mode: lighten;
-    border: 1px solid rgba(237, 238, 241, 0.5);
-    /* background: rgba(255, 255, 255, 0.37);
+    background:  linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.1px);
     -webkit-backdrop-filter: blur(4.1px);
-    border: 1px solid rgba(255, 255, 255, 0.3); */
+    border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +41,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 43px;
     line-height: 48px;
     display: flex;
     align-items: center;
@@ -73,6 +72,7 @@
     font-weight: bold;
 }    
 .close {
+    color: #000000;
     float: right;
     margin-bottom: 70px;
     background-color: transparent;
@@ -364,6 +364,24 @@
     color: #000000;
     
    
+}
+
+.showhide_pass {
+
+    position: absolute;
+    left: 175px;
+    top: 300px;
+    font-size: 14px;
+}
+
+.showhide_passlbl {
+
+    position: absolute;
+    left: 195px;
+    top: 300px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400px;
 }
 
 .welcome{

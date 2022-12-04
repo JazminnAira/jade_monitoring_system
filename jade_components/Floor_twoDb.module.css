@@ -519,6 +519,111 @@
 @media screen and (max-width: 1140px) {
     .library_lbl {
         padding-left: 10vw;
+        font-size: 100%;
+    }
+
+    .library_btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .room104_lbl{
+        font-size: 95%;
+    }
+
+    .room104_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room103_lbl{
+        font-size: 95%;
+    }
+
+    .room103_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room102_lbl{
+        font-size: 95%;
+    }
+    .room102_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room101_lbl{
+        font-size: 95%;
+    }
+    .room101_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room109_lbl{
+        font-size: 95%;
+    }
+    .room109_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room110_lbl{
+        font-size: 95%;
+    }
+    .room110_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .room111_lbl{
+        font-size: 95%;
+    }
+
+    .room111_btn{
+        width:15%;
+        height:20%;
+    }
+    .room112_lbl{
+        font-size: 95%;
+    }
+
+    .room112_btn{
+        width:15%;
+        height:20%;
+    }
+
+    .active {
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .floor1_btn{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .floor3_btn{
+        width:80%;
+        font-size: 90%;
+    }
+
+    .vacant_lbl{
+        margin-left: 45%;
+        
+        font-size: 90%;
+    }    
+
+    .occupied_btn{
+        margin-left: -60%;
+        width:20%;
+        height:20%; 
+    }
+
+    .occupied_lbl{
+        margin-left: 35%;
+        font-size: 90%;
     }
 }
 
