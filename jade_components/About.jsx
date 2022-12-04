@@ -5,7 +5,7 @@ import styles from "./About.module.css";
 const About = () => {
     return (
         <div className={styles.background}>
-             <div className={styles.layer}>
+            <div className={styles.layer}>
             <div className={styles.container}>
             
                 <div>
