@@ -1,6 +1,6 @@
 .container{
     position: relative;
-    width: 100%;
+    min-width:690px;
     height: 700px;
     background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     mix-blend-mode: normal;
@@ -220,7 +220,7 @@
 
 .title {
     position: relative;
-    width: 353px;
+    width: 30vw;
     height: 144px;
     left: 150px;
     top: 80px;
@@ -324,11 +324,11 @@
 
 
 .image{
-    position: relative;
+    position: absolute;
     width: 650;
     height: 550;
     top : 0;
-    left: 167px;
+    right: 10vw;
 }
 
 .layer {
@@ -430,27 +430,35 @@
   
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1327px) {
     .container{
-        width: 1000px;
-        height: 700px;
-        background: linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
-        mix-blend-mode: normal;
+        height: 1200px;
     }
-    
-    .login_btn{
-        position: relative;
-        width: 150px;
-        height: 60px;
-        left: 190px;
-        top: 120px;
+
+    .image{
+        position: absolute;
+        top: 70vh;
+        left: 18vw;
     }
-    .signup_btn{
-        position: relative;
-        width: 150px;
-        height: 60px;
-        left: 155px;
-        top: 120px;
-    
+
+    .title_sub{
+        left: 13vw;
     }
-} */
+}
+
+@media screen and (max-width: 845px) {
+    .title_sub{
+        left: 2vw;
+    }
+
+    .image{
+        left: 2vw;
+        top: 70vh;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .container{
+        width: 100vw;
+    }
+}
