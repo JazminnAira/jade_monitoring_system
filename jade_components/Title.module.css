@@ -260,9 +260,9 @@
 .signup_btn {
     position: absolute;
     width: 130px;
-    height: 50px;
+    height: 38px;
     left: 17.2vw;
-    top: 12vh;
+    top: 9vh;
 
   
     background: #FFFFFF;
@@ -303,7 +303,7 @@
     font-size: 20px;
     position: absolute;
     left: 20.3vw;
-    top: 7vh;
+    top: 5vh;
 }
 
 .buttonarea{
@@ -319,9 +319,8 @@
 .login_btn1 {
     position: absolute;
     width: 103px;
-    height: 50px;
+    height: 38px;
     left: 18vw;
-
 
     background: #FFFFFF;
     border-radius: 23px;
@@ -329,7 +328,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 18px;
     cursor: pointer;
     color: #000000;
