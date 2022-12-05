@@ -21,8 +21,8 @@
     top: 50%;
     left: 50%; transform:translate(-50%, -50%);
     
-    mix-blend-mode: lighten;
-    background:  linear-gradient(0deg, rgba(119, 208, 207, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
+    mix-blend-mode: normal;
+    background:  linear-gradient(0deg, rgba(44, 101, 100, 0.5), rgba(119, 208, 207, 0.5)), rgba(175, 217, 213, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.1px);
@@ -32,6 +32,26 @@
     justify-content: center;
     align-items: center;
     padding-top: 0px; 
+}
+
+.showhide_passmodal {
+
+    position: absolute;
+    left: 26px;
+    top: 470px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.showhide_passlblmodal {
+
+    position: absolute;
+    left: 50px;
+    top: 470px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400px;
 }
 .signuplbl{
     

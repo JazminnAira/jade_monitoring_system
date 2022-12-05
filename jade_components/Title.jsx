@@ -43,7 +43,10 @@ const Title = () => {
                             <input type="text" className={styles.department} placeholder="Department"/><br></br><br></br>
                             <input type="text" onChange={NumericOnly} className={styles.cnum} placeholder="Contact No."/> <br></br><br></br>
                             <input type="email" className={styles.email} placeholder="@email"/><br></br><br></br>
-                            <input type="password" className={styles.password1} placeholder="*******"/> <br></br><br></br>
+                            <input type={showPassword?'text':'password'} id="pswrd" name="pswrd" pattern="[a-z0-9]{1,15}" title="Password should be digits (0 to 9) or alphabets (a to z)."className={styles.password1} placeholder="*********" required /><br></br><br></br>
+                            <input type="checkbox"
+                            onClick={()=>setShowPassword(!showPassword)}
+                            className={styles.showhide_passmodal} for="toggle"/><div className={styles.showhide_passlblmodal}>{showPassword?'hide password':'show password'}</div>
                         </form>
                        
                         </ModalBody>
