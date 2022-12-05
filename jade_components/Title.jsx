@@ -46,7 +46,7 @@ const Title = () => {
                             <input type={showPassword?'text':'password'} id="pswrd" name="pswrd" pattern="[a-z0-9]{1,15}" title="Password should be digits (0 to 9) or alphabets (a to z)."className={styles.password1} placeholder="*********" required /><br></br><br></br>
                             <input type="checkbox"
                             onClick={()=>setShowPassword(!showPassword)}
-                            className={styles.showhide_passmodal} for="toggle"/><div className={styles.showhide_passlblmodal}>{showPassword?'Hide password':'Show password'}</div>
+                            className={styles.showhide_passmodal} for="toggle"/><div className={styles.showhide_passlblmodal}><b>{showPassword?'Hide password':'Show password'}</b></div>
                         </form>
                        
                         </ModalBody>
@@ -63,7 +63,7 @@ const Title = () => {
                         <input type={showPassword?'text':'password'} id="pswrd" name="pswrd" pattern="[a-z0-9]{1,15}" title="Password should be digits (0 to 9) or alphabets (a to z)."className={styles.password} placeholder="*********" required />
                         <input type="checkbox"
                         onClick={()=>setShowPassword(!showPassword)}
-                        className={styles.showhide_pass} for="toggle"/><div className={styles.showhide_passlbl}>{showPassword?'Hide password':'Show password'}</div>
+                        className={styles.showhide_pass} for="toggle"/><div className={styles.showhide_passlbl}><b>{showPassword?'Hide password':'Show password'}</b></div>
                     </div>
                     <img src="/images/coverimage.png" height="550" width="650"/>
                     <div className={styles.buttonarea}>
