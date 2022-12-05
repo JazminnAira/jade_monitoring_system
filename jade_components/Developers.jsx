@@ -15,7 +15,7 @@ const Developers = () => {
                 </div>
                 <div className={styles.card}>
                     <img src="/images/dana.png" height ="180" width="175"/><br></br>
-                    <label className={styles.name}>DANA DRACE FULLA</label><br></br>
+                    <label className={styles.name}>DANA GRACE FULLA</label><br></br>
                     <label className={styles.position}>UI/UX Manager</label>
                 </div>
                 <div className={styles.card}>
