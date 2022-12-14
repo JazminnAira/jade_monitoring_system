@@ -63,7 +63,7 @@ const Floor_twoDb = () => {
             </div>
             <hr className={styles.hr}></hr>
 
-            <Link href="/CoverPage"><button className={styles.home}><img src="/images/home_btn.png" height="30"/></button></Link>
+            <Link href="/index"><button className={styles.home}><img src="/images/home_btn.png" height="30"/></button></Link>
 
         </div>
         </div>
